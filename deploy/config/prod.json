@@ -9,5 +9,8 @@
     },
     "spot_instance": {
         "instance_type": "t3.large"
+    },
+    "sns": {
+        "topic_name": "prod-etl-completion"
     }
 }

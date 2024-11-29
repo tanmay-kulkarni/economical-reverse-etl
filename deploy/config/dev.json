@@ -9,5 +9,8 @@
     },
     "spot_instance": {
         "instance_type": "t3.micro"
+    },
+    "sns": {
+        "topic_name": "dev-etl-completion"
     }
 }
