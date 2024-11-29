@@ -1,0 +1,13 @@
+{
+    "redshift": {
+        "cluster": "dev-analytics",
+        "database": "dev_warehouse"
+    },
+    "postgres": {
+        "host": "dev-postgres.xyz.region.rds.amazonaws.com",
+        "database": "dev_operational"
+    },
+    "spot_instance": {
+        "instance_type": "t3.micro"
+    }
+}

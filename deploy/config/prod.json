@@ -1,0 +1,13 @@
+{
+    "redshift": {
+        "cluster": "prod-analytics",
+        "database": "prod_warehouse"
+    },
+    "postgres": {
+        "host": "prod-postgres.xyz.region.rds.amazonaws.com",
+        "database": "prod_operational"
+    },
+    "spot_instance": {
+        "instance_type": "t3.large"
+    }
+}
