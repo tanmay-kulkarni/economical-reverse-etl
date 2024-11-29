@@ -1,0 +1,12 @@
+[project]
+name = "economical-reverse-etl"
+version = "0.1.0"
+description = "A cost-effective reverse ETL pipeline"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.35.71",
+    "polars>=1.16.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+]
